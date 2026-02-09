@@ -1,0 +1,24 @@
+.card {
+  background: rgba(16, 26, 46, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(124, 92, 255, 0.16);
+  border: 1px solid rgba(124, 92, 255, 0.28);
+  color: var(--text);
+  font-weight: 800;
+  font-size: 12px;
+}
+
+article {
+  display: block;
+  unicode-bidi: isolate;
+}
