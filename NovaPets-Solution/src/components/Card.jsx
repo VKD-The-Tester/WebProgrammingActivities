@@ -1,4 +1,4 @@
-const Card = (stepNumber, headingText, paragraphInfo) => {
+const Card = ({ stepNumber, headingText, paragraphInfo }) => {
   return (
     <article className="card">
       <span className="badge">Step {stepNumber}</span>

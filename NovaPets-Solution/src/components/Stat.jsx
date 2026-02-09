@@ -1,4 +1,4 @@
-const Stat = (inputLabel, inputValue) => {
+const Stat = ({ inputLabel, inputValue }) => {
   return (
     <div className="stat">
       <div className="label">{inputLabel}</div>
