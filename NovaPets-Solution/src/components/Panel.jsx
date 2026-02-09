@@ -1,9 +1,5 @@
-const Panel = (headingText) => {
-  return (
-    <div className="panel">
-      <h2>{headingText}</h2>
-    </div>
-  );
+const Panel = (children) => {
+  return <div className="panel">{children}</div>;
 };
 
 export default Panel;
