@@ -1,0 +1,8 @@
+import "../components-styling/StatGrid.css";
+import Stat from "./Stat";
+
+const StatGrid = ({ children }) => {
+  return <div className="stat-grid">{children}</div>;
+};
+
+export default StatGrid;
