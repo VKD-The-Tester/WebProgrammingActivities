@@ -1,35 +1,21 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Card from "./components/Card";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import HowItWorks from "./pages/HowItWorks";
+import Pets from "./pages/Pets";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <>
-      <div className="card-grid">
-        <Card
-          badgeInput={"Profiles"}
-          headingText={"Real details"}
-          paragraphInfo={
-            "Age, vaccines, energy level, and what the pet is like at home."
-          }
-        ></Card>
-        <Card
-          badgeInput={"Visits"}
-          headingText={"Book a meet"}
-          paragraphInfo={
-            "Send one message and we connect you with the shelter."
-          }
-        ></Card>
-        <Card
-          badgeInput={"Support"}
-          headingText={"After adoption"}
-          paragraphInfo={
-            "Get tips for the first week: food, routine, and settling in."
-          }
-        ></Card>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/howitworks" element={<HowItWorks />}></Route>
+        <Route path="/pets" element={<Pets />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
     </>
   );
 }
