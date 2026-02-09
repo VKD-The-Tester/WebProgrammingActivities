@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import "../components-styling/HeroActions.css";
 
 const HeroActions = ({ primaryLinkText, primaryLink, LinkText, Link }) => {
   return (
