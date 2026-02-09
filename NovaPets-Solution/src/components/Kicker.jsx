@@ -1,3 +1,5 @@
+import "../components-styling/Kicker.css";
+
 const Kicker = ({ kickerText }) => {
   return (
     <div className="kicker">
