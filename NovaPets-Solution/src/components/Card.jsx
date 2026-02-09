@@ -1,3 +1,5 @@
+import "../components-styling/Card.css";
+
 const Card = ({ badgeInput, headingText, paragraphInfo }) => {
   return (
     <article className="card">
