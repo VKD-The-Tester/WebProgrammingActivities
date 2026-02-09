@@ -1,3 +1,5 @@
+import "../components-styling/Stat.css";
+
 const Stat = ({ inputLabel, inputValue }) => {
   return (
     <div className="stat">
