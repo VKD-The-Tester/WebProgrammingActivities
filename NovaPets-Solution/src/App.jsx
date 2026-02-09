@@ -14,7 +14,11 @@ function App() {
           "Age, vaccines, energy level, and what the pet is like at home."
         }
       ></Card>
-      <Card></Card>
+      <Card
+        badgeInput={"Visits"}
+        headingText={"Book a meet"}
+        paragraphInfo={"Send one message and we connect you with the shelter."}
+      ></Card>
     </>
   );
 }
