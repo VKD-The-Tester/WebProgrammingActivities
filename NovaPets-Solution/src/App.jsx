@@ -19,6 +19,13 @@ function App() {
         headingText={"Book a meet"}
         paragraphInfo={"Send one message and we connect you with the shelter."}
       ></Card>
+      <Card
+        badgeInput={"Support"}
+        headingText={"After adoption"}
+        paragraphInfo={
+          "Get tips for the first week: food, routine, and settling in."
+        }
+      ></Card>
     </>
   );
 }
