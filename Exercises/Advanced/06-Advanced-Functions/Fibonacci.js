@@ -13,16 +13,12 @@ const fibReg = () => {
     return 1;
   }
 
-  let a = 1,
-    b = 1;
+  const result = fibState.lastLastNumber + fibState.lastNumber;
 
-  for (let i = 0; i < fibState.currentIndexNumber - 2; i++) {
-    const next = a + b;
-    a = b;
-    b = next;
-  }
+  fibState.lastLastNumber = fibState.lastNumber;
+  fibState.lastNumber = result;
 
-  return b;
+  return result;
 };
 
 const fibState = {
