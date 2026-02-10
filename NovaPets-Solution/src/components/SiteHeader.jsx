@@ -1,3 +1,5 @@
+import "../components-styling/SiteHeader.css";
+
 const SiteHeader = ({ children }) => {
   return (
     <header className="site-header">
