@@ -39,8 +39,8 @@ while (LoopingCondition) {
 
     case "Regulars":
       break;
-
-      console.log(`Total price: ${price}`);
-      LoopingCondition = false;
   }
+
+  console.log(`Total price: ${price}`);
+  LoopingCondition = false;
 }
