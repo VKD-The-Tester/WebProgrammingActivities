@@ -3,7 +3,7 @@ import "../components-styling/Button.css";
 
 const Button = ({ buttonClass, buttonLink, buttonText }) => {
   return (
-    <NavLink className={buttonClass} link={buttonLink}>
+    <NavLink className={buttonClass} to={buttonLink}>
       {buttonText}
     </NavLink>
   );
