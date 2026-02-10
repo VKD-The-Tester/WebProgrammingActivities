@@ -1,0 +1,39 @@
+import { NavLink } from "react-router-dom";
+import "../components-styling/Brand.css";
+
+const Brand = () => {
+  return (
+    <NavLink to={"/Home"} aria-label="NovaPets Home">
+      <span className="brand-bridge" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+          <path
+            d="M12 2l8.5 4.8v10.4L12 22l-8.5-4.8V6.8L12 2z"
+            stroke="white"
+            stroke-width="1.8"
+            opacity="0.95"
+          ></path>
+          <path
+            d="M7.4 8.8L12 6.2l4.6 2.6v6.4L12 17.8l-4.6-2.6V8.8z"
+            fill="white"
+            opacity="0.22"
+          ></path>
+          <path
+            d="M9.2 12h5.6"
+            stroke="white"
+            stroke-width="1.8"
+            stroke-linecap="round"
+          ></path>
+          <path
+            d="M12 9.2v5.6"
+            stroke="white"
+            stroke-width="1.8"
+            stroke-linecap="round"
+          ></path>
+        </svg>
+      </span>
+      <span>Novapets</span>
+    </NavLink>
+  );
+};
+
+export default Brand;
