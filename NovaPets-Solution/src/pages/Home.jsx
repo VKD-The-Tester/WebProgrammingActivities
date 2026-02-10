@@ -1,5 +1,11 @@
+import SiteHeader from "../components/SiteHeader";
+
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <SiteHeader>
+      <Brand></Brand>
+    </SiteHeader>
+  );
 };
 
 export default Home;
