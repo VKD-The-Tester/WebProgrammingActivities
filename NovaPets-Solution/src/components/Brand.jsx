@@ -20,14 +20,14 @@ const Brand = () => {
           <path
             d="M9.2 12h5.6"
             stroke="white"
-            stroke-width="1.8"
-            stroke-linecap="round"
+            strokeWidth="1.8"
+            strokeLinecap="round"
           ></path>
           <path
             d="M12 9.2v5.6"
             stroke="white"
-            stroke-width="1.8"
-            stroke-linecap="round"
+            strokeWidth="1.8"
+            strokeLinecap="round"
           ></path>
         </svg>
       </span>
