@@ -1,11 +1,3 @@
-const fibRec = (n) => {
-  if (n < 3) {
-    return 1;
-  }
-
-  return fibRec(n - 1) + fibRec(n - 2);
-};
-
 const fibReg = () => {
   fibStatecurrentIndexNumber++;
 
@@ -27,6 +19,8 @@ const fibState = {
   lastNumber: 0,
 };
 
-let fibReset = () => {};
-
-const fibSet = () => {};
+let fibReset = () => {
+  fibState.currentIndexNumber = 0;
+  fibState.lastLastNumber = 0;
+  fibState.lastNumber = 0;
+};
