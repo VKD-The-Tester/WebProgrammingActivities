@@ -35,6 +35,9 @@ while (LoopingCondition) {
       break;
 
     case "Business":
+      if (count >= 100) {
+        price = price - discount;
+      }
       break;
 
     case "Regulars":
