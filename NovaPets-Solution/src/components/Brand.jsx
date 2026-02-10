@@ -3,7 +3,7 @@ import "../components-styling/Brand.css";
 
 const Brand = () => {
   return (
-    <NavLink to={"/Home"} aria-label="NovaPets Home">
+    <NavLink to={"/"} aria-label="NovaPets Home">
       <span className="brand-bridge" aria-hidden="true">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
           <path
