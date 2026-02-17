@@ -1,0 +1,15 @@
+.form-container {
+  width: 20em;
+  padding: 1em;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 0;
+  gap: 2em;
+}
+
+.input-container input {
+  min-width: 10em;
+}
