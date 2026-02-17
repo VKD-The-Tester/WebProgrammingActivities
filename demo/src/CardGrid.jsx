@@ -1,5 +1,4 @@
-import Card from "./Card";
-import "../components-styling/CardGrid.css";
+import Card from "./Components/Card";
 
 const CardGrid = ({ children }) => {
   return <div className="card-grid">{children}</div>;
